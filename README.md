@@ -1,17 +1,17 @@
 # Premium Digital Store
 
-Loja estática de landing pages e coleções digitais de prompts.
+Static storefront for landing page templates and digital AI prompt collections. Customer-facing pages are written in US English.
 
-## Produtos e preços
+## Products and pricing
 
-O catálogo e as prévias estão em `js/script.js`. Quando os preços e links Gumroad estiverem disponíveis, preencha `price` e `checkoutUrl` no produto correspondente. O botão de compra permanece indisponível até existir um checkout configurado.
+The catalog and demos are defined in `js/script.js`. When prices and Gumroad links are available, fill in `price` and `checkoutUrl` for each product. The Buy button remains disabled until a checkout link is configured.
 
-As miniaturas dos prompt packs, em `assets/prompt-covers/`, foram geradas a partir da primeira página de cada PDF. Os PDFs completos não são incluídos no site público nem no repositório, para que o material pago só seja entregue pelo checkout.
+Prompt pack thumbnails in `assets/prompt-covers/` were created from the first page of each PDF. The complete PDFs are not included in the public site or repository, so paid materials are only delivered through checkout.
 
-## Demos das landing pages
+## Landing page demos
 
-Abra `landing-preview.html?id=ai-startup`, `landing-preview.html?id=saas`, `landing-preview.html?id=marketing-agency`, `landing-preview.html?id=real-estate` ou `landing-preview.html?id=dental-clinic` para ver as cinco demos completas. O botão de personalização abre o WhatsApp com o link da demo selecionada.
+Open `landing-preview.html?id=ai-startup`, `landing-preview.html?id=saas`, `landing-preview.html?id=marketing-agency`, `landing-preview.html?id=real-estate`, or `landing-preview.html?id=dental-clinic` to view the five complete demos. The customization button opens WhatsApp with a link to the selected demo.
 
-Os botões “Comprar” ficam desativados até serem definidos os respetivos links de checkout.
+Buy buttons stay disabled until their checkout links are configured.
 
-O projeto não requer compilação. Na Netlify, use a raiz do repositório (`.`) como diretório de publicação.
+No build step is required. On Netlify, use the repository root (`.`) as the publish directory.

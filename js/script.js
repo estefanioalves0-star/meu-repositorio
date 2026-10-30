@@ -4,216 +4,216 @@ const landingPages = [
   {
     id: "ai-startup",
     name: "AI Startup — Landing Page",
-    category: "INTELIGÊNCIA ARTIFICIAL",
+    category: "ARTIFICIAL INTELLIGENCE",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Apresente uma ferramenta de inteligência artificial com uma demo clara e focada na conversão.",
+    shortDescription: "Showcase your AI product with a clear, conversion-focused landing page.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
-    imageAlt: "Visual abstrato de tecnologia e inteligência artificial",
+    imageAlt: "Abstract artificial intelligence technology",
     preview: {
       theme: "ai",
       brand: "nova.ai",
-      eyebrow: "A SUA NOVA PARCEIRA DE INTELIGÊNCIA ARTIFICIAL",
-      headline: "As suas melhores ideias. Prontas em minutos.",
-      heroCta: "Descubra o nova.ai",
-      description: "Crie, escreva e organize o seu trabalho com uma assistente de IA que entende aquilo de que precisa.",
-      shortDescription: "Crie conteúdo, automatize tarefas e trabalhe com uma assistente de IA.",
-      imageAlt: "Interface de inteligência artificial num computador portátil",
-      statement: "Menos tarefas repetitivas. Mais tempo para fazer o trabalho que importa.",
-      sectionTag: "PRODUTIVIDADE COM IA",
-      sectionLabel: "UMA FORMA MAIS INTELIGENTE DE TRABALHAR",
-      sectionHeadline: "Da primeira ideia ao trabalho concluído.",
-      sectionDescription: "Uma plataforma de IA simples de usar, com ferramentas práticas para ajudar a sua equipa a avançar com confiança.",
+      eyebrow: "YOUR NEW AI WORK PARTNER",
+      headline: "Your best ideas. Ready in minutes.",
+      heroCta: "Discover nova.ai",
+      description: "Create, write, and organize your work with an AI assistant that understands what you need.",
+      shortDescription: "Create content, automate tasks, and work smarter with an AI assistant.",
+      imageAlt: "AI assistant interface on a laptop",
+      statement: "Less repetitive work. More time for the work that matters.",
+      sectionTag: "AI-POWERED PRODUCTIVITY",
+      sectionLabel: "A SMARTER WAY TO WORK",
+      sectionHeadline: "From first idea to finished work.",
+      sectionDescription: "An easy-to-use AI platform with practical tools to help your team move forward with confidence.",
       services: [
-        { title: "Assistente de IA", description: "Obtenha respostas úteis com contexto para as tarefas do seu dia a dia." },
-        { title: "Criação de conteúdo", description: "Transforme um briefing em textos, ideias e campanhas em poucos passos." },
-        { title: "Fluxos automatizados", description: "Passe menos tempo em tarefas repetitivas e mais tempo a fazer crescer o negócio." }
+        { title: "AI assistant", description: "Get useful, contextual answers for the tasks on your plate every day." },
+        { title: "Content creation", description: "Turn a brief into copy, ideas, and campaigns in just a few steps." },
+        { title: "Automated workflows", description: "Spend less time on repetitive tasks and more time growing your business." }
       ],
-      trust: ["Para equipas de marketing", "Para quem cria todos os dias", "Para negócios em crescimento"],
-      processHeading: "Da ideia ao resultado, passo a passo.",
+      trust: ["For marketing teams", "For everyday creators", "For growing businesses"],
+      processHeading: "From idea to outcome, step by step.",
       steps: [
-        { title: "Escolha o seu objetivo", description: "Comece pela tarefa ou desafio que quer resolver." },
-        { title: "Dê contexto à assistente", description: "Partilhe as informações necessárias para orientar a resposta." },
-        { title: "Revise e personalize", description: "Ajuste o resultado ao seu conhecimento e à sua marca." }
+        { title: "Choose your goal", description: "Start with the task or challenge you want to solve." },
+        { title: "Give your assistant context", description: "Share the information it needs to guide its response." },
+        { title: "Review and personalize", description: "Adapt the results to your expertise and brand." }
       ],
-      cta: "Experimente uma forma mais simples de trabalhar."
+      cta: "Discover a simpler way to work."
     }
   },
   {
     id: "saas",
     name: "SaaS — Landing Page",
-    category: "SOFTWARE & PRODUTIVIDADE",
+    category: "SOFTWARE & PRODUCTIVITY",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Mostre como o seu software organiza projetos, equipas e tarefas num só lugar.",
+    shortDescription: "Show how your software brings projects, teams, and tasks together in one place.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
-    imageAlt: "Painel de software com gráficos e informação organizada",
+    imageAlt: "Software dashboard with charts and organized information",
     preview: {
       theme: "saas",
       brand: "flowdesk",
-      eyebrow: "O ESPAÇO DE TRABALHO DA SUA EQUIPA",
-      headline: "Projetos em movimento. Toda a equipa alinhada.",
+      eyebrow: "YOUR TEAM'S WORKSPACE",
+      headline: "Projects moving forward. Your whole team in sync.",
       heroCta: "Explore a plataforma",
-      description: "Planeie projetos, acompanhe tarefas e mantenha cada pessoa a par — sem perder tempo a saltar entre ferramentas.",
-      shortDescription: "Organize projetos, tarefas e equipas com um software intuitivo.",
-      imageAlt: "Painel de software com gráficos e informação organizada",
-      statement: "O trabalho corre melhor quando toda a gente sabe o que fazer a seguir.",
-      sectionTag: "SOFTWARE DE GESTÃO DE PROJETOS",
-      sectionLabel: "TUDO O QUE A SUA EQUIPA PRECISA",
-      sectionHeadline: "Um fluxo de trabalho que faz sentido.",
-      sectionDescription: "Do primeiro plano à tarefa concluída, acompanhe o progresso sem perder o foco.",
+      description: "Plan projects, track tasks, and keep everyone in the loop—without jumping between tools.",
+      shortDescription: "Organize projects, tasks, and teams with intuitive software.",
+      imageAlt: "Software dashboard with charts and organized information",
+      statement: "Work runs smoother when everyone knows what to do next.",
+      sectionTag: "PROJECT MANAGEMENT SOFTWARE",
+      sectionLabel: "EVERYTHING YOUR TEAM NEEDS",
+      sectionHeadline: "A workflow that just makes sense.",
+      sectionDescription: "Track progress from the first plan to the final task without losing focus.",
       services: [
-        { title: "Planeie com clareza", description: "Organize projetos, prazos e prioridades num painel fácil de consultar." },
-        { title: "Acompanhe o progresso", description: "Veja o estado de cada tarefa sem interromper o ritmo da equipa." },
-        { title: "Trabalhe em conjunto", description: "Partilhe atualizações e mantenha conversas junto do trabalho." }
+        { title: "Plan with clarity", description: "Organize projects, deadlines, and priorities in one easy-to-read dashboard." },
+        { title: "Track progress", description: "See the status of every task without disrupting your team's momentum." },
+        { title: "Work together", description: "Share updates and keep conversations connected to the work." }
       ],
-      trust: ["Projetos num só lugar", "Prioridades sempre visíveis", "Feito para equipas modernas"],
-      processHeading: "Um fluxo de trabalho que acompanha a sua equipa.",
+      trust: ["Projects in one place", "Priorities always visible", "Built for modern teams"],
+      processHeading: "A workflow that keeps up with your team.",
       steps: [
-        { title: "Crie o projeto", description: "Defina o objetivo, os responsáveis e os próximos passos." },
-        { title: "Organize as tarefas", description: "Distribua o trabalho e mantenha as prioridades visíveis." },
-        { title: "Acompanhe cada etapa", description: "Consulte o progresso e atualize o plano quando necessário." }
+        { title: "Create your project", description: "Set the goal, assign owners, and define the next steps." },
+        { title: "Organize your tasks", description: "Assign work and keep priorities visible." },
+        { title: "Track every step", description: "Check progress and adjust the plan as needed." }
       ],
-      cta: "Organize o próximo projeto num só lugar."
+      cta: "Bring your next project together in one place."
     }
   },
   {
     id: "marketing-agency",
     name: "Marketing Agency — Landing Page",
-    category: "MARKETING & PUBLICIDADE",
+    category: "MARKETING & ADVERTISING",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Apresente os seus serviços de anúncios, SEO e redes sociais com uma proposta orientada a resultados.",
+    shortDescription: "Present your paid ads, SEO, and social media services with a results-driven offer.",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=85",
-    imageAlt: "Equipa de marketing a planear uma campanha numa reunião",
+    imageAlt: "Marketing team planning a campaign in a meeting",
     preview: {
       theme: "agency",
       brand: "PULSE / GROWTH",
-      eyebrow: "MARKETING COM ESTRATÉGIA E CRIATIVIDADE",
-      headline: "Mais do que alcance. Crescimento que se mede.",
-      heroCta: "Veja como podemos ajudar",
-      description: "Ajudamos marcas ambiciosas a encontrar o seu público e a transformar atenção em clientes.",
-      shortDescription: "Anúncios, SEO e redes sociais para atrair clientes e crescer.",
-      imageAlt: "Equipa de marketing a planear uma campanha numa reunião",
-      statement: "Boas campanhas começam com uma compreensão clara do negócio.",
-      sectionTag: "SERVIÇOS DE MARKETING DIGITAL",
-      sectionLabel: "SERVIÇOS PARA CADA FASE",
-      sectionHeadline: "Estratégia que liga a marca às pessoas certas.",
-      sectionDescription: "Um plano integrado para atrair atenção qualificada, construir confiança e apoiar o crescimento.",
+      eyebrow: "STRATEGIC, CREATIVE MARKETING",
+      headline: "More than reach. Growth you can measure.",
+      heroCta: "See how we can help",
+      description: "We help ambitious brands find their audience and turn attention into customers.",
+      shortDescription: "Paid ads, SEO, and social media to attract customers and grow.",
+      imageAlt: "Marketing team planning a campaign in a meeting",
+      statement: "Great campaigns start with a clear understanding of the business.",
+      sectionTag: "DIGITAL MARKETING SERVICES",
+      sectionLabel: "SERVICES FOR EVERY STAGE",
+      sectionHeadline: "Strategy that connects your brand with the right people.",
+      sectionDescription: "An integrated plan to attract qualified attention, build trust, and support growth.",
       services: [
-        { title: "Anúncios pagos", description: "Campanhas de Meta e Google alinhadas com os seus objetivos de negócio." },
-        { title: "SEO e conteúdo", description: "Ajude os seus clientes a encontrar a marca quando procuram uma solução." },
-        { title: "Redes sociais", description: "Uma presença consistente que transforma seguidores em comunidade." }
+        { title: "Paid advertising", description: "Meta and Google campaigns aligned with your business goals." },
+        { title: "SEO and content", description: "Help customers find your brand when they're looking for a solution." },
+        { title: "Social media", description: "Build a consistent presence that turns followers into a community." }
       ],
-      trust: ["Facebook & Instagram Ads", "SEO & conteúdo", "Estratégia para redes sociais"],
-      processHeading: "Estratégia, execução e acompanhamento.",
+      trust: ["Facebook & Instagram Ads", "SEO & content", "Social media strategy"],
+      processHeading: "Strategy, execution, and optimization.",
       steps: [
-        { title: "Conhecemos o negócio", description: "Percebemos a sua oferta, os seus objetivos e o público que quer alcançar." },
-        { title: "Definimos a estratégia", description: "Escolhemos os canais e a mensagem mais adequados ao projeto." },
-        { title: "Lançamos e acompanhamos", description: "Executamos as campanhas e analisamos o que pode ser melhorado." }
+        { title: "We learn your business", description: "We get to know your offer, your goals, and the audience you want to reach." },
+        { title: "We build your strategy", description: "We choose the channels and messaging that fit your business." },
+        { title: "We launch and optimize", description: "We run your campaigns and look for ways to improve performance." }
       ],
-      cta: "Vamos falar sobre o crescimento da sua marca."
+      cta: "Let's talk about growing your brand."
     }
   },
   {
     id: "real-estate",
     name: "Real Estate — Landing Page",
-    category: "IMOBILIÁRIO",
+    category: "REAL ESTATE",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Destaque imóveis, agende visitas e ajude clientes a encontrar o próximo lar.",
+    shortDescription: "Showcase properties, schedule tours, and help clients find their next home.",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
-    imageAlt: "Moradia contemporânea com jardim e piscina",
+    imageAlt: "Contemporary home with a garden and pool",
     preview: {
       theme: "real-estate",
-      brand: "HORIZON / IMÓVEIS",
-      eyebrow: "IMÓVEIS SELECIONADOS COM CRITÉRIO",
-      headline: "O lugar certo muda a forma de viver.",
-      heroCta: "Descubra os imóveis",
-      description: "Encontre casas e apartamentos escolhidos com atenção ao espaço, à localização e ao que realmente importa.",
-      shortDescription: "Apresente imóveis e facilite pedidos de visita com uma página elegante.",
-      imageAlt: "Moradia contemporânea com jardim e piscina",
-      statement: "Encontrar uma casa não é só escolher um endereço. É imaginar o que pode acontecer ali.",
-      sectionTag: "COMPRAR OU ARRENDAR",
-      sectionLabel: "UMA SELEÇÃO PARA DESCOBRIR",
-      sectionHeadline: "Espaços com potencial para se tornarem seus.",
-      sectionDescription: "Acompanhamento próximo, informação clara e imóveis selecionados para facilitar a sua procura.",
+      brand: "HORIZON / REALTY",
+      eyebrow: "THOUGHTFULLY SELECTED HOMES",
+      headline: "The right place can change everything.",
+      heroCta: "Explore properties",
+      description: "Find homes and apartments selected for the space, location, and details that matter most.",
+      shortDescription: "Showcase properties and make it easy to schedule a tour.",
+      imageAlt: "Contemporary home with a garden and pool",
+      statement: "Finding a home is more than choosing an address. It's imagining what could happen there.",
+      sectionTag: "BUY OR RENT",
+      sectionLabel: "A COLLECTION TO EXPLORE",
+      sectionHeadline: "Spaces with the potential to feel like yours.",
+      sectionDescription: "Personal guidance, clear information, and carefully selected properties to make your search easier.",
       services: [
-        { title: "Casas com carácter", description: "Descubra moradias com espaço, luz natural e detalhes bem pensados." },
-        { title: "Apartamentos bem localizados", description: "Explore opções próximas de serviços, transportes e do seu dia a dia." },
-        { title: "Visitas acompanhadas", description: "Marque uma visita e conheça cada espaço ao seu próprio ritmo." }
+        { title: "Homes with character", description: "Discover homes with room to live, natural light, and thoughtful details." },
+        { title: "Well-located apartments", description: "Explore options close to the places and services you rely on every day." },
+        { title: "Guided property tours", description: "Schedule a tour and explore each space at your own pace." }
       ],
-      trust: ["Compra e arrendamento", "Aconselhamento próximo", "Visitas com acompanhamento"],
-      processHeading: "Uma procura acompanhada do início à visita.",
+      trust: ["Buying and renting", "Personal guidance", "Guided property tours"],
+      processHeading: "Guidance from your first search to your tour.",
       steps: [
-        { title: "Partilhe o que procura", description: "Indique a localização, o tipo de imóvel e os detalhes importantes." },
-        { title: "Explore as opções", description: "Veja imóveis selecionados de acordo com aquilo que procura." },
-        { title: "Marque uma visita", description: "Conheça o espaço e esclareça as suas dúvidas com acompanhamento." }
+        { title: "Tell us what you're looking for", description: "Share your preferred location, property type, and must-haves." },
+        { title: "Explore your options", description: "Browse properties selected to match what you're looking for." },
+        { title: "Schedule a tour", description: "See the space in person and get answers along the way." }
       ],
-      cta: "Conte-nos o que procura. Ajudamos a encontrar."
+      cta: "Tell us what you're looking for. We'll help you find it."
     }
   },
   {
     id: "dental-clinic",
     name: "Dental Clinic — Landing Page",
-    category: "SAÚDE & MEDICINA DENTÁRIA",
+    category: "HEALTHCARE & DENTISTRY",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Apresente tratamentos e a equipa da clínica com clareza e convide novos pacientes a marcar.",
+    shortDescription: "Showcase your dental team and services, and make it easy for new patients to book.",
     image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=85",
-    imageAlt: "Consultório dentário moderno, luminoso e preparado para receber pacientes",
+    imageAlt: "Bright, modern dental office ready to welcome patients",
     preview: {
       theme: "dental",
-      brand: "SORRISO / CLÍNICA",
-      eyebrow: "MEDICINA DENTÁRIA COM CUIDADO E PROXIMIDADE",
-      headline: "Cuidar do seu sorriso pode ser simples.",
-      heroCta: "Conheça os tratamentos",
-      description: "Uma equipa atenciosa, explicações claras e cuidados personalizados em cada visita.",
-      shortDescription: "Mostre tratamentos, equipa e marcações numa página acolhedora.",
-      imageAlt: "Consultório dentário moderno e luminoso",
-      statement: "Cada sorriso é único. O cuidado também deve ser.",
-      sectionTag: "CUIDADOS DE SAÚDE ORAL",
-      sectionLabel: "CUIDADOS PARA CADA SORRISO",
-      sectionHeadline: "Atenção, experiência e conforto.",
-      sectionDescription: "Conheça os cuidados da clínica e escolha um primeiro passo com acompanhamento da nossa equipa.",
+      brand: "EVERWELL / DENTAL",
+      eyebrow: "DENTAL CARE THAT PUTS YOU FIRST",
+      headline: "A healthier smile starts here.",
+      heroCta: "Explore our services",
+      description: "A caring team, clear answers, and personalized dental care at every visit.",
+      shortDescription: "Showcase your services, team, and appointments with a welcoming design.",
+      imageAlt: "Bright, modern dental office",
+      statement: "Every smile is unique. Your care should be, too.",
+      sectionTag: "COMPREHENSIVE DENTAL CARE",
+      sectionLabel: "CARE FOR EVERY SMILE",
+      sectionHeadline: "Expertise, comfort, and personal attention.",
+      sectionDescription: "Explore our services and find the right first step with support from our team.",
       services: [
-        { title: "Consulta de avaliação", description: "Uma conversa cuidadosa para conhecer as suas necessidades e explicar as opções." },
-        { title: "Higiene oral", description: "Cuidados preventivos e orientação para manter a saúde oral no dia a dia." },
-        { title: "Estética dentária", description: "Conheça as opções disponíveis com informação clara e acompanhamento profissional." }
+        { title: "New patient exams", description: "A thoughtful conversation to understand your needs and explain your options." },
+        { title: "Preventive care", description: "Routine cleanings and guidance to help protect your oral health." },
+        { title: "Cosmetic dentistry", description: "Explore available treatments with clear information and professional care." }
       ],
-      trust: ["Prevenção & higiene oral", "Tratamentos personalizados", "Marcação simples"],
-      processHeading: "Cuidados explicados com atenção em cada etapa.",
+      trust: ["Preventive care", "Personalized treatment", "Easy appointment scheduling"],
+      processHeading: "Clear guidance at every step of your care.",
       steps: [
-        { title: "Escolha o cuidado", description: "Consulte as áreas clínicas e indique o motivo da sua visita." },
-        { title: "Marque uma avaliação", description: "Agende um horário para conversar com a equipa da clínica." },
-        { title: "Conheça as opções", description: "Receba informação clara sobre os cuidados adequados a si." }
+        { title: "Choose a service", description: "Explore our services and tell us what brings you in." },
+        { title: "Schedule a consultation", description: "Book a time to talk with our dental team." },
+        { title: "Explore your options", description: "Get clear guidance on the care that's right for you." }
       ],
-      cta: "A nossa equipa está pronta para o receber."
+      cta: "Our team is here to help you smile with confidence."
     }
   }
 ];
 
 const promptPackInfo = [
-  ["100-ai-business-prompts", "100 AI Prompts for Business Growth", 100, "Negócios & crescimento", "Prompts práticos para automação, atendimento ao cliente, operações e estratégia."],
-  ["100-email-marketing-prompts", "100 AI Prompts for Email Marketing", 100, "Email marketing", "Planeje crescimento de listas, relacionamento com clientes, recuperação de carrinhos e lançamentos."],
-  ["100-facebook-ads-prompts", "100 AI Prompts for High-Converting Facebook Ads", 100, "Publicidade digital", "Crie anúncios mais claros para empreendedores, lojas online e afiliados."],
-  ["100-instagram-prompts", "100 AI Prompts for Instagram Content", 100, "Redes sociais", "Desenvolva Reels, carrosséis, legendas e calendários de conteúdo."],
-  ["100-market-research-prompts", "100 AI Prompts for Market Research", 100, "Pesquisa de mercado", "Explore concorrentes, personas, validação de ideias e preços."],
-  ["100-shopify-prompts", "100 AI Prompts for Shopify Store Growth", 100, "E-commerce", "Melhore páginas de produto, descoberta orgânica, vendas adicionais e crescimento da loja."],
-  ["200-ai-prompts-for-resumes-and-job-interviews", "200 AI Prompts for Resumes and Job Interviews", 200, "Carreira", "Prepare currículos mais fortes, candidaturas personalizadas e entrevistas com confiança."],
-  ["200-copywriting-prompts", "200 AI Prompts for Persuasive Copywriting", 200, "Copywriting", "Escreva mensagens de marketing mais persuasivas, histórias relevantes e textos de venda."],
-  ["200-digital-marketing-prompts", "200 AI Prompts for Digital Marketing", 200, "Marketing digital", "Planeje, crie, avalie e melhore ações de marketing digital."],
-  ["200-prompts-for-high-conversing-landing-pages", "200 AI Prompts for High-Converting Landing Pages", 200, "Landing pages", "Crie páginas estratégicas que transformam atenção em ação."],
-  ["200-web-development-prompts", "200 AI Prompts for Web Development", 200, "Desenvolvimento web", "Apoie a criação de experiências web acessíveis, responsivas e fáceis de manter."],
-  ["250-ai-prompts-for-email-marketing", "250 AI Prompts for Email Marketing", 250, "Email marketing", "Escreva boas-vindas, promoções, recuperação de carrinhos e sequências de relacionamento."],
-  ["250-ai-prompts-for-real-estate-agents", "250 AI Prompts for Real Estate Agents", 250, "Imobiliário", "Crie marketing imobiliário, acompanhamento de clientes e conteúdos para o dia a dia."],
-  ["300-ai-prompts-for-ecommerce-product-listings", "300 AI Prompts for E-commerce Product Listings", 300, "E-commerce", "Melhore títulos, descrições, perguntas frequentes, fotografias e páginas de produto."],
-  ["300-ai-prompts-for-sales-copy-that-converts", "300 AI Prompts for Sales Copy That Converts", 300, "Vendas & copywriting", "Uma biblioteca prática para vendedores online, redatores e empreendedores."],
-  ["300-ai-prompts-for-stunning-product-images", "300 AI Prompts for Stunning Product Images", 300, "Imagem de produto", "Oriente fotografia de produto, cenários, direção visual e imagens comerciais."],
-  ["365-ai-prompts-to-run-your-small-business", "365 AI Prompts to Run Your Small Business", 365, "Pequenos negócios", "Prompts para atendimento, marketing, vendas e a rotina de pequenos negócios."],
-  ["400-ai-prompts-for-youtube-creators", "400 AI Prompts for YouTube Creators", 400, "Criação para YouTube", "Desenvolva ideias de vídeos, roteiros, títulos, thumbnails e crescimento do canal."],
-  ["500-ai-prompts-for-professional-websites-and-landing-pages", "500 AI Prompts for Professional Websites & Landing Pages", 500, "Websites & landing pages", "Planeje estratégia, estrutura de páginas, textos, propostas visuais e conversão."],
-  ["500-social-media-growth-prompts", "500 AI Prompts for Social Media Growth", 500, "Redes sociais", "Ideias práticas de conteúdo para pequenos negócios, freelancers e criadores."]
+  ["100-ai-business-prompts", "100 AI Prompts for Business Growth", 100, "Business & Growth", "Practical prompts for automation, customer service, operations, and strategy."],
+  ["100-email-marketing-prompts", "100 AI Prompts for Email Marketing", 100, "Email Marketing", "Grow your list, build customer relationships, recover carts, and plan launches."],
+  ["100-facebook-ads-prompts", "100 AI Prompts for High-Converting Facebook Ads", 100, "Digital Advertising", "Create clearer ads for entrepreneurs, online stores, and affiliates."],
+  ["100-instagram-prompts", "100 AI Prompts for Instagram Content", 100, "Social Media", "Create Reels, carousels, captions, and content calendars."],
+  ["100-market-research-prompts", "100 AI Prompts for Market Research", 100, "Market Research", "Explore competitors, customer personas, idea validation, and pricing."],
+  ["100-shopify-prompts", "100 AI Prompts for Shopify Store Growth", 100, "E-commerce", "Improve product pages, organic discovery, upsells, and store growth."],
+  ["200-ai-prompts-for-resumes-and-job-interviews", "200 AI Prompts for Resumes and Job Interviews", 200, "Career", "Build stronger resumes, tailor applications, and prepare for interviews with confidence."],
+  ["200-copywriting-prompts", "200 AI Prompts for Persuasive Copywriting", 200, "Copywriting", "Write more persuasive marketing messages, compelling stories, and sales copy."],
+  ["200-digital-marketing-prompts", "200 AI Prompts for Digital Marketing", 200, "Digital Marketing", "Plan, create, evaluate, and improve your digital marketing."],
+  ["200-prompts-for-high-conversing-landing-pages", "200 AI Prompts for High-Converting Landing Pages", 200, "Landing Pages", "Create strategic pages that turn attention into action."],
+  ["200-web-development-prompts", "200 AI Prompts for Web Development", 200, "Web Development", "Build accessible, responsive web experiences that are easy to maintain."],
+  ["250-ai-prompts-for-email-marketing", "250 AI Prompts for Email Marketing", 250, "Email Marketing", "Write welcome emails, promotions, cart recovery messages, and nurture sequences."],
+  ["250-ai-prompts-for-real-estate-agents", "250 AI Prompts for Real Estate Agents", 250, "Real Estate", "Create real estate marketing, client follow-ups, and everyday content."],
+  ["300-ai-prompts-for-ecommerce-product-listings", "300 AI Prompts for E-commerce Product Listings", 300, "E-commerce", "Improve product titles, descriptions, FAQs, photography, and product pages."],
+  ["300-ai-prompts-for-sales-copy-that-converts", "300 AI Prompts for Sales Copy That Converts", 300, "Sales & Copywriting", "A practical library for online sellers, copywriters, and entrepreneurs."],
+  ["300-ai-prompts-for-stunning-product-images", "300 AI Prompts for Stunning Product Images", 300, "Product Imagery", "Plan product photography, settings, art direction, and commercial images."],
+  ["365-ai-prompts-to-run-your-small-business", "365 AI Prompts to Run Your Small Business", 365, "Small Business", "Prompts for customer service, marketing, sales, and day-to-day operations."],
+  ["400-ai-prompts-for-youtube-creators", "400 AI Prompts for YouTube Creators", 400, "YouTube Creation", "Develop video ideas, scripts, titles, thumbnails, and channel growth plans."],
+  ["500-ai-prompts-for-professional-websites-and-landing-pages", "500 AI Prompts for Professional Websites & Landing Pages", 500, "Websites & Landing Pages", "Plan page strategy, structure, copy, visual concepts, and conversion."],
+  ["500-social-media-growth-prompts", "500 AI Prompts for Social Media Growth", 500, "Social Media", "Practical content ideas for small businesses, freelancers, and creators."]
 ];
 
 const promptPacks = promptPackInfo.map(([id, name, count, promptCategory, shortDescription]) => ({
@@ -227,7 +227,7 @@ const promptPacks = promptPackInfo.map(([id, name, count, promptCategory, shortD
   shortDescription,
   description: shortDescription,
   image: `assets/prompt-covers/${id}.webp`,
-  imageAlt: `Capa do PDF ${name}, usando a primeira página do documento`,
+  imageAlt: `Cover of ${name}, designed from the document's first page`,
   badge: ""
 }));
 
@@ -247,11 +247,11 @@ function productCard(product, type) {
     ? `<span class="product-rating-label">${product.count} prompts</span>`
     : `<span class="product-rating-label">DEMO COMPLETA</span>`;
   const actions = isPrompt
-    ? `<a href="${href}">Ver detalhes <span aria-hidden="true">↗</span></a>`
-    : `<a href="${previewHref}">Ver demo <span aria-hidden="true">↗</span></a><a href="${productWhatsAppHref(product)}" target="_blank" rel="noopener noreferrer">Personalizar <span aria-hidden="true">↗</span></a>`;
+    ? `<a href="${href}">View details <span aria-hidden="true">↗</span></a>`
+    : `<a href="${previewHref}">View demo <span aria-hidden="true">↗</span></a><a href="${productWhatsAppHref(product)}" target="_blank" rel="noopener noreferrer">Customize <span aria-hidden="true">↗</span></a>`;
 
   return `<article class="product-card${isPrompt ? " prompt-card" : ""}">
-    <a class="product-art" href="${isPrompt ? href : previewHref}" aria-label="${isPrompt ? `Ver detalhes de ${product.name}` : `Visualizar ${product.name}`}">
+    <a class="product-art" href="${isPrompt ? href : previewHref}" aria-label="${isPrompt ? `View details for ${product.name}` : `Preview ${product.name}`}">
       <img src="${product.image}" alt="${product.imageAlt}" loading="lazy">
       <span class="product-category">${product.category}</span>${badge}${count}
     </a>
@@ -265,7 +265,7 @@ function productCard(product, type) {
 }
 
 function renderCatalog(query = "") {
-  const normalizedQuery = query.trim().toLocaleLowerCase("pt-BR");
+  const normalizedQuery = query.trim().toLocaleLowerCase("en-US");
   const collections = [
     { type: "landing", items: landingPages, track: document.querySelector('[data-track="landing"]') },
     { type: "prompts", items: promptPacks, track: document.querySelector('[data-track="prompts"]') }
@@ -274,7 +274,7 @@ function renderCatalog(query = "") {
   collections.forEach(({ type, items, track }) => {
     if (!track) return;
     const filtered = items.filter((product) =>
-      `${product.name} ${product.category} ${product.shortDescription}`.toLocaleLowerCase("pt-BR").includes(normalizedQuery)
+      `${product.name} ${product.category} ${product.shortDescription}`.toLocaleLowerCase("en-US").includes(normalizedQuery)
     );
     track.innerHTML = filtered.map((product) => productCard(product, type)).join("");
     const count = document.querySelector(`[data-count="${type}"]`);
@@ -311,7 +311,7 @@ function setProductPrice(product) {
 }
 
 function priceLabel(product) {
-  return product.price || "Preço a definir";
+  return product.price || "Price coming soon";
 }
 
 function escapeHtml(value) {
@@ -345,7 +345,7 @@ function setBuyLinks(product) {
     link.setAttribute("aria-disabled", "true");
     link.setAttribute("tabindex", "-1");
     link.classList.add("is-unavailable");
-    link.textContent = "Comprar";
+    link.textContent = "Buy";
   });
 }
 
@@ -359,12 +359,12 @@ function productPreviewUrl(product) {
 }
 
 function productWhatsAppHref(product) {
-  const message = `Olá! Gostaria de pedir a personalização da landing page "${product.name}". Link da demo: ${productPreviewUrl(product)}`;
+  const message = `Hi! I'd like to request customization for the "${product.name}" landing page. Demo link: ${productPreviewUrl(product)}`;
   return whatsappHref(message);
 }
 
 function setProductWhatsappLinks(product, previewUrl) {
-  const message = `Olá! Gostaria de pedir a personalização da landing page "${product.name}". Link da demo: ${previewUrl}`;
+  const message = `Hi! I'd like to request customization for the "${product.name}" landing page. Demo link: ${previewUrl}`;
   document.querySelectorAll("[data-product-whatsapp]").forEach((link) => {
     link.href = whatsappHref(message);
     link.target = "_blank";
@@ -374,7 +374,7 @@ function setProductWhatsappLinks(product, previewUrl) {
 
 function initWhatsappLinks() {
   document.querySelectorAll("[data-whatsapp-link]:not([data-product-whatsapp])").forEach((link) => {
-    link.href = whatsappHref("Olá! Gostaria de falar sobre os produtos da Northstar Studio.");
+    link.href = whatsappHref("Hi! I'd like to learn more about Northstar Studio's products.");
     link.target = "_blank";
     link.rel = "noopener noreferrer";
   });
@@ -391,8 +391,8 @@ function initLandingDetail() {
   setText("[data-long-description]", product.preview.sectionDescription);
   setText("[data-product-index]", `${String(landingPages.indexOf(product) + 1).padStart(2, "0")} / ${String(landingPages.length).padStart(2, "0")}`);
   setImage("[data-cover-image]", product.image, product.imageAlt);
-  setImage("[data-showcase-one]", product.image, `Detalhe da experiência visual ${product.name}`);
-  setImage("[data-showcase-two]", product.image, `Mais detalhes do design ${product.name}`);
+  setImage("[data-showcase-one]", product.image, `A closer look at the ${product.name} visual experience`);
+  setImage("[data-showcase-two]", product.image, `More design details for ${product.name}`);
   setBuyLinks(product);
   document.querySelectorAll("[data-preview-link]").forEach((link) => {
     link.href = productPreviewUrl(product);
@@ -425,10 +425,10 @@ function initLandingPreview() {
     <div class="live-site live-theme-${preview.theme}">
       <header class="live-nav">
         <a class="live-brand" href="#top">${escapeHtml(preview.brand)}</a>
-        <nav aria-label="Navegação da prévia">
-          <a href="#sobre">Sobre</a><a href="#servicos">Soluções</a><a href="#contacto">Contacto</a>
+        <nav aria-label="Preview navigation">
+          <a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
         </nav>
-        <a class="live-nav-cta" href="#contacto">Fale connosco <span aria-hidden="true">↗</span></a>
+        <a class="live-nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </header>
       <main>
         <section class="live-hero" id="top">
@@ -437,8 +437,8 @@ function initLandingPreview() {
             <h1>${escapeHtml(preview.headline)}</h1>
             <p>${escapeHtml(preview.description)}</p>
             <div class="live-hero-actions">
-              <a class="live-cta" href="#servicos">${escapeHtml(preview.heroCta)} <span aria-hidden="true">↗</span></a>
-              <a class="live-cta live-cta-secondary" data-buy-link href="#">Comprar</a>
+              <a class="live-cta" href="#services">${escapeHtml(preview.heroCta)} <span aria-hidden="true">↗</span></a>
+              <a class="live-cta live-cta-secondary" data-buy-link href="#">Buy</a>
             </div>
             <span class="live-note">${escapeHtml(preview.sectionTag)}</span>
           </div>
@@ -448,44 +448,44 @@ function initLandingPreview() {
           </div>
           <span class="live-hero-number" aria-hidden="true">01</span>
         </section>
-        <section class="live-trust" aria-label="Destaques">
+        <section class="live-trust" aria-label="Highlights">
           ${trust}
         </section>
-        <section class="live-statement" id="sobre">
+        <section class="live-statement" id="about">
           <span class="live-eyebrow">${escapeHtml(preview.sectionTag)}</span>
           <p>${escapeHtml(preview.statement)}</p>
         </section>
-        <section class="live-services" id="servicos">
+        <section class="live-services" id="services">
           <div class="live-section-heading">
             <div><span class="live-eyebrow">${escapeHtml(preview.sectionLabel)}</span><h2>${escapeHtml(preview.sectionHeadline)}</h2></div>
             <p>${escapeHtml(preview.sectionDescription)}</p>
           </div>
           <div class="live-service-grid">${services}</div>
         </section>
-        <section class="live-process" id="processo">
+        <section class="live-process" id="process">
           <div class="live-section-heading">
-            <div><span class="live-eyebrow">COMO FUNCIONA</span><h2>${escapeHtml(preview.processHeading)}</h2></div>
-            <p>Uma sequência clara para conhecer a solução e perceber como a demo pode ser adaptada ao seu negócio.</p>
+            <div><span class="live-eyebrow">HOW IT WORKS</span><h2>${escapeHtml(preview.processHeading)}</h2></div>
+            <p>A clear path to explore the solution and see how this demo can be tailored to your business.</p>
           </div>
           <div class="live-step-grid">${steps}</div>
         </section>
-        <section class="live-contact" id="contacto">
-          <div><span class="live-eyebrow">VAMOS CONVERSAR</span><h2>${escapeHtml(preview.cta)}</h2></div>
+        <section class="live-contact" id="contact">
+          <div><span class="live-eyebrow">LET'S TALK</span><h2>${escapeHtml(preview.cta)}</h2></div>
           <div class="live-contact-actions">
-            <p>Este é um modelo demonstrativo. Peça a personalização para adaptar o conteúdo, as imagens e a identidade à sua marca.</p>
+            <p>This is a demo template. Request customization to tailor the content, imagery, and visual identity to your brand.</p>
             <div class="live-contact-actions-row">
-              <a class="live-cta" data-product-whatsapp href="#">Pedir personalização <span aria-hidden="true">↗</span></a>
-              <a class="live-cta live-cta-secondary" data-buy-link href="#">Comprar</a>
+              <a class="live-cta" data-product-whatsapp href="#">Request customization <span aria-hidden="true">↗</span></a>
+              <a class="live-cta live-cta-secondary" data-buy-link href="#">Buy</a>
             </div>
           </div>
         </section>
       </main>
-      <footer class="live-footer"><span>${escapeHtml(preview.brand)}</span><span>Modelo demonstrativo · Northstar Studio</span><a href="#top">Voltar ao topo ↑</a></footer>
+      <footer class="live-footer"><span>${escapeHtml(preview.brand)}</span><span>Demo template · Northstar Studio</span><a href="#top">Back to top ↑</a></footer>
     </div>`;
 
   setBuyLinks(product);
   setProductWhatsappLinks(product, productPreviewUrl(product));
-  document.title = `Prévia: ${product.name} — Northstar Studio`;
+  document.title = `Preview: ${product.name} — Northstar Studio`;
 }
 
 function initPromptDetail() {
@@ -498,7 +498,7 @@ function initPromptDetail() {
   setText("[data-product-description]", product.description);
   setText("[data-prompt-count]", `${product.count}\nPROMPTS`);
   setText("[data-prompt-count-inline]", `${product.count} prompts`);
-  setText("[data-prompt-count-text]", `${product.count} prompts cuidadosamente organizados`);
+  setText("[data-prompt-count-text]", `${product.count} carefully organized prompts`);
   setText("[data-prompt-category]", product.promptCategory);
   setImage("[data-cover-image]", product.image, product.imageAlt);
   setBuyLinks(product);
@@ -545,13 +545,13 @@ function initNavigation() {
   toggle.addEventListener("click", () => {
     const isOpen = toggle.getAttribute("aria-expanded") === "true";
     toggle.setAttribute("aria-expanded", String(!isOpen));
-    toggle.setAttribute("aria-label", isOpen ? "Abrir menu" : "Fechar menu");
+    toggle.setAttribute("aria-label", isOpen ? "Open menu" : "Close menu");
     nav.classList.toggle("is-open", !isOpen);
   });
   nav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Abrir menu");
+      toggle.setAttribute("aria-label", "Open menu");
       nav.classList.remove("is-open");
     });
   });
@@ -563,8 +563,8 @@ function initContactForm() {
   const params = new URLSearchParams(window.location.search);
   const topic = form.elements.namedItem("topic");
   const requestedSubject = params.get("assunto");
-  if (topic && requestedSubject === "personalizacao") topic.value = "Personalização de landing page";
-  if (topic && requestedSubject === "compra") topic.value = "Dúvida sobre um produto";
+  if (topic && requestedSubject === "customization") topic.value = "Landing page customization";
+  if (topic && requestedSubject === "purchase") topic.value = "Product question";
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -572,16 +572,16 @@ function initContactForm() {
     const formData = new FormData(form);
     const subject = `[Northstar Studio] ${formData.get("topic")}`;
     const body = [
-      `Nome: ${formData.get("name")}`,
-      `E-mail: ${formData.get("email")}`,
-      `Assunto: ${formData.get("topic")}`,
+      `Name: ${formData.get("name")}`,
+      `Email: ${formData.get("email")}`,
+      `Topic: ${formData.get("topic")}`,
       "",
       formData.get("message")
     ].join("\n");
     const mailto = `mailto:hello@northstar.studio?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
     const note = form.querySelector("[data-form-note]");
-    if (note) note.textContent = "Seu aplicativo de e-mail está sendo aberto com a mensagem preparada.";
+    if (note) note.textContent = "Your email app will open with your message ready to send.";
   });
 }
 
