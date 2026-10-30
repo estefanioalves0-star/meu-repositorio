@@ -10,7 +10,7 @@ Prompt pack thumbnails in `assets/prompt-covers/` were created from the first pa
 
 ## Landing page demos
 
-Open `landing-preview.html?id=ai-startup`, `landing-preview.html?id=saas`, `landing-preview.html?id=marketing-agency`, `landing-preview.html?id=real-estate`, or `landing-preview.html?id=dental-clinic` to view the five complete demos. The customization button opens WhatsApp with a link to the selected demo.
+Open `landing-preview.html?id=ai-startup`, `landing-preview.html?id=saas`, `landing-preview.html?id=marketing-agency`, `landing-preview.html?id=real-estate`, `landing-preview.html?id=dental-clinic`, `landing-preview.html?id=coaching-consulting`, `landing-preview.html?id=ecommerce-product`, `landing-preview.html?id=law-firm`, `landing-preview.html?id=roofing-home-services`, or `landing-preview.html?id=gym-fitness` to view the ten complete demos. Each demo is written in US English, and its customization button opens WhatsApp with a link to the selected demo.
 
 Buy buttons stay disabled until their checkout links are configured.
 

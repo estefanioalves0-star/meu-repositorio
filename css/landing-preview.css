@@ -22,6 +22,11 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-theme-agency { --live-bg: #151313; --live-ink: #f9f4ed; --live-muted: #b6aaa0; --live-accent: #ea6748; --live-panel: #211b19; color-scheme: dark; }
 .live-theme-real-estate { --live-bg: #f4f1ea; --live-ink: #28372f; --live-muted: #707b70; --live-accent: #ad7950; --live-panel: #e9e4d8; }
 .live-theme-dental { --live-bg: #f2f8f8; --live-ink: #193438; --live-muted: #688081; --live-accent: #32a39b; --live-panel: #e2f0ef; }
+.live-theme-coaching { --live-bg: #f7f3ed; --live-ink: #322c27; --live-muted: #80756b; --live-accent: #a56d49; --live-panel: #eee6dc; }
+.live-theme-ecommerce { --live-bg: #fbf8f3; --live-ink: #25241f; --live-muted: #77736a; --live-accent: #d65b38; --live-panel: #f0e9df; }
+.live-theme-law { --live-bg: #171d27; --live-ink: #f5f1e8; --live-muted: #b7b4ab; --live-accent: #d1ad72; --live-panel: #222b38; color-scheme: dark; }
+.live-theme-home-services { --live-bg: #f7f5ef; --live-ink: #29312d; --live-muted: #707970; --live-accent: #b57542; --live-panel: #ebe9df; }
+.live-theme-fitness { --live-bg: #141816; --live-ink: #f4f5ef; --live-muted: #aab2a9; --live-accent: #c1e35b; --live-panel: #202722; color-scheme: dark; }
 .live-nav { position: relative; z-index: 2; width: min(1240px,calc(100% - 72px)); min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: auto; border-bottom: 1px solid color-mix(in srgb,var(--live-ink) 15%,transparent); }
 .live-brand { font-size: 15px; font-weight: 800; letter-spacing: .09em; }
 .live-nav nav { display: flex; gap: 30px; color: var(--live-muted); font-size: 12px; }
@@ -33,6 +38,7 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-hero h1,.live-section-heading h2,.live-contact h2 { max-width: 650px; margin: 21px 0 18px; font: 650 clamp(42px,5.4vw,70px)/1.02 "Segoe UI",sans-serif; letter-spacing: -.065em; }
 .live-theme-real-estate .live-hero h1,.live-theme-real-estate .live-section-heading h2,.live-theme-real-estate .live-contact h2 { font-family: Georgia,"Times New Roman",serif; font-weight: 500; letter-spacing: -.045em; }
 .live-theme-dental .live-hero h1,.live-theme-dental .live-section-heading h2,.live-theme-dental .live-contact h2 { font-family: Georgia,"Times New Roman",serif; font-weight: 500; letter-spacing: -.04em; }
+.live-theme-coaching .live-hero h1,.live-theme-coaching .live-section-heading h2,.live-theme-coaching .live-contact h2,.live-theme-law .live-hero h1,.live-theme-law .live-section-heading h2,.live-theme-law .live-contact h2 { font-family: Georgia,"Times New Roman",serif; font-weight: 500; letter-spacing: -.045em; }
 .live-hero-copy > p { max-width: 460px; margin: 0; color: var(--live-muted); font-size: 15px; line-height: 1.8; }
 .live-hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .live-cta { min-height: 48px; display: inline-flex; align-items: center; gap: 18px; margin-top: 27px; padding: 0 18px; background: var(--live-accent); color: var(--live-bg); font-size: 12px; font-weight: 750; }
@@ -58,6 +64,19 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-theme-dental .live-hero { grid-template-columns: 1fr 1fr; }
 .live-theme-dental .live-hero-image { min-height: 430px; border-radius: 110px 110px 12px 12px; }
 .live-theme-dental .live-hero-number { color: #32a39b26; }
+.live-theme-coaching .live-hero { grid-template-columns: .95fr 1.05fr; }
+.live-theme-coaching .live-hero-image { min-height: 460px; border-radius: 48% 48% 8px 8px; }
+.live-theme-ecommerce .live-hero { grid-template-columns: .95fr 1.05fr; }
+.live-theme-ecommerce .live-hero-image { min-height: 470px; border-radius: 3px; }
+.live-theme-ecommerce .live-hero-image img { object-position: center; }
+.live-theme-law .live-hero { grid-template-columns: 1fr 1fr; }
+.live-theme-law .live-hero-image { min-height: 460px; border: 1px solid #d1ad7240; border-radius: 2px; }
+.live-theme-law .live-hero-number { color: #d1ad7226; }
+.live-theme-home-services .live-hero { grid-template-columns: 1fr 1.08fr; }
+.live-theme-home-services .live-hero-image { min-height: 440px; border-radius: 8px; }
+.live-theme-fitness .live-hero { grid-template-columns: 1.05fr .95fr; }
+.live-theme-fitness .live-hero-image { min-height: 480px; border-radius: 4px 80px 4px 4px; }
+.live-theme-fitness .live-hero-number { color: #c1e35b24; }
 .live-theme-agency .live-image-caption { text-transform: uppercase; }
 .live-theme-real-estate .live-image-caption { padding: 8px 12px; background: #18251faa; }
 .live-theme-dental .live-image-caption { padding: 8px 12px; border-radius: 4px; background: #174341ba; }
@@ -65,6 +84,9 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-theme-saas .live-cta { border-radius: 7px; }
 .live-theme-agency .live-cta { border-radius: 2px; }
 .live-theme-real-estate .live-cta,.live-theme-dental .live-cta { border-radius: 4px; }
+.live-theme-coaching .live-cta,.live-theme-law .live-cta,.live-theme-home-services .live-cta { border-radius: 3px; }
+.live-theme-ecommerce .live-cta { border-radius: 999px; }
+.live-theme-fitness .live-cta { border-radius: 3px; text-transform: uppercase; letter-spacing: .06em; }
 .live-trust { width: min(1240px,calc(100% - 72px)); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px 28px; margin: auto; padding: 20px 0; border-top: 1px solid color-mix(in srgb,var(--live-ink) 12%,transparent); border-bottom: 1px solid color-mix(in srgb,var(--live-ink) 12%,transparent); color: var(--live-muted); font-size: 10px; font-weight: 650; }
 .live-trust span::before { width: 6px; height: 6px; display: inline-block; margin-right: 9px; border-radius: 50%; background: var(--live-accent); content: ""; }
 .live-statement { padding: 95px 24px 105px; background: var(--live-panel); text-align: center; }
@@ -80,7 +102,7 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-service + .live-service { padding-left: 24px; border-left: 1px solid color-mix(in srgb,var(--live-ink) 18%,transparent); }
 .live-service > span { color: var(--live-accent); font-size: 10px; font-weight: 750; }
 .live-service h3 { margin: 27px 0 9px; font: 600 22px/1.2 "Segoe UI",sans-serif; letter-spacing: -.035em; }
-.live-theme-real-estate .live-service h3,.live-theme-dental .live-service h3 { font-family: Georgia,"Times New Roman",serif; font-weight: 500; }
+.live-theme-real-estate .live-service h3,.live-theme-dental .live-service h3,.live-theme-coaching .live-service h3,.live-theme-law .live-service h3 { font-family: Georgia,"Times New Roman",serif; font-weight: 500; }
 .live-service p { max-width: 290px; margin: 0; color: var(--live-muted); font-size: 11px; line-height: 1.7; }
 .live-process { width: min(1240px,calc(100% - 72px)); margin: auto; padding: 88px 0 96px; }
 .live-process .live-section-heading { margin-bottom: 32px; }
@@ -91,6 +113,8 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
 .live-step p { margin: 0; color: var(--live-muted); font-size: 11px; line-height: 1.7; }
 .live-theme-agency .live-step { border-radius: 2px; }
 .live-theme-dental .live-step { border-radius: 14px 14px 4px 4px; }
+.live-theme-law .live-step { border-radius: 2px; }
+.live-theme-fitness .live-step { border-color: #c1e35b35; border-radius: 3px; }
 .live-contact { display: grid; grid-template-columns: 1fr .8fr; align-items: center; gap: 56px; padding: 80px max(36px,calc((100vw - 1240px)/2)); background: var(--live-panel); }
 .live-contact h2 { margin-top: 16px; }
 .live-contact-actions > p { max-width: 480px; }
@@ -108,10 +132,10 @@ a:focus-visible { outline: 2px solid #68bcb5; outline-offset: 4px; }
   .live-nav { min-height: 66px; gap: 10px; }
   .live-nav nav { gap: 13px; font-size: 10px; }
   .live-nav-cta { display: none; }
-  .live-hero,.live-theme-ai .live-hero,.live-theme-saas .live-hero,.live-theme-agency .live-hero,.live-theme-real-estate .live-hero,.live-theme-dental .live-hero { min-height: 0; grid-template-columns: 1fr; gap: 36px; padding: 62px 0 76px; }
+  .live-hero,.live-theme-ai .live-hero,.live-theme-saas .live-hero,.live-theme-agency .live-hero,.live-theme-real-estate .live-hero,.live-theme-dental .live-hero,.live-theme-coaching .live-hero,.live-theme-ecommerce .live-hero,.live-theme-law .live-hero,.live-theme-home-services .live-hero,.live-theme-fitness .live-hero { min-height: 0; grid-template-columns: 1fr; gap: 36px; padding: 62px 0 76px; }
   .live-hero h1 { max-width: 570px; font-size: clamp(42px,12vw,66px); }
   .live-hero-copy > p { font-size: 13px; }
-  .live-hero-image,.live-theme-saas .live-hero-image,.live-theme-agency .live-hero-image,.live-theme-real-estate .live-hero-image,.live-theme-dental .live-hero-image { min-height: 330px; }
+  .live-hero-image,.live-theme-saas .live-hero-image,.live-theme-agency .live-hero-image,.live-theme-real-estate .live-hero-image,.live-theme-dental .live-hero-image,.live-theme-coaching .live-hero-image,.live-theme-ecommerce .live-hero-image,.live-theme-law .live-hero-image,.live-theme-home-services .live-hero-image,.live-theme-fitness .live-hero-image { min-height: 330px; }
   .live-hero-number { right: 0; bottom: 27px; font-size: 82px; }
   .live-statement { padding: 69px 22px 76px; }
   .live-statement p { font-size: clamp(29px,8vw,42px); }

@@ -53,7 +53,7 @@ const landingPages = [
       brand: "flowdesk",
       eyebrow: "YOUR TEAM'S WORKSPACE",
       headline: "Projects moving forward. Your whole team in sync.",
-      heroCta: "Explore a plataforma",
+      heroCta: "Explore the platform",
       description: "Plan projects, track tasks, and keep everyone in the loop—without jumping between tools.",
       shortDescription: "Organize projects, tasks, and teams with intuitive software.",
       imageAlt: "Software dashboard with charts and organized information",
@@ -189,6 +189,196 @@ const landingPages = [
         { title: "Explore your options", description: "Get clear guidance on the care that's right for you." }
       ],
       cta: "Our team is here to help you smile with confidence."
+    }
+  },
+  {
+    id: "coaching-consulting",
+    name: "Coaching & Consulting — Landing Page",
+    category: "COACHING & CONSULTING",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Present your coaching or consulting services and turn interested visitors into clients.",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Consultant guiding a team through a planning session",
+    preview: {
+      theme: "coaching",
+      brand: "NORTH / ADVISORY",
+      eyebrow: "A CLEARER PATH TO YOUR NEXT MILESTONE",
+      headline: "Make your next move your best one yet.",
+      heroCta: "Explore the approach",
+      description: "Get thoughtful guidance, practical strategies, and a partner who helps you turn your goals into meaningful progress.",
+      shortDescription: "Showcase your coaching services, expertise, and client journey.",
+      imageAlt: "Consultant guiding a team through a planning session",
+      statement: "The right perspective can turn a big goal into a clear next step.",
+      sectionTag: "COACHING & CONSULTING",
+      sectionLabel: "SUPPORT THAT MOVES YOU FORWARD",
+      sectionHeadline: "A thoughtful plan, built around you.",
+      sectionDescription: "From defining the challenge to taking action, get focused support that meets you where you are.",
+      services: [
+        { title: "One-on-one coaching", description: "Create space to work through challenges and build a plan that fits your goals." },
+        { title: "Business consulting", description: "Get an outside perspective on your strategy, operations, and next opportunities." },
+        { title: "Leadership development", description: "Build the skills and confidence to lead your team through what's next." }
+      ],
+      trust: ["Personalized guidance", "Practical strategies", "Built around your goals"],
+      processHeading: "A clear path from conversation to action.",
+      steps: [
+        { title: "Start with a conversation", description: "Share what's working, what's challenging, and where you want to go." },
+        { title: "Build your plan", description: "Set clear priorities and practical steps that fit your situation." },
+        { title: "Keep making progress", description: "Put your plan into action and adjust as your goals evolve." }
+      ],
+      cta: "Ready to make your next move?"
+    }
+  },
+  {
+    id: "ecommerce-product",
+    name: "E-commerce Product — Landing Page",
+    category: "E-COMMERCE",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Showcase a standout product with persuasive details and a clear path to purchase.",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Red athletic sneaker photographed against a bright background",
+    preview: {
+      theme: "ecommerce",
+      brand: "FORM / GOODS",
+      eyebrow: "MADE FOR YOUR EVERYDAY",
+      headline: "The details make all the difference.",
+      heroCta: "Explore the collection",
+      description: "Meet a thoughtfully designed essential that brings comfort, quality, and everyday versatility together.",
+      shortDescription: "Highlight product benefits, design details, and a focused shopping experience.",
+      imageAlt: "Red athletic sneaker photographed against a bright background",
+      statement: "Good design earns its place in your everyday routine.",
+      sectionTag: "DESIGNED WITH PURPOSE",
+      sectionLabel: "A CLOSER LOOK",
+      sectionHeadline: "Thoughtful from the first detail.",
+      sectionDescription: "Show customers what makes your product special with clear, helpful information at every step.",
+      services: [
+        { title: "Made for everyday", description: "Show how your product fits naturally into the moments that matter." },
+        { title: "Quality you can see", description: "Highlight materials, craftsmanship, and the details behind the design." },
+        { title: "A simpler way to shop", description: "Give customers the information they need to feel confident choosing." }
+      ],
+      trust: ["Thoughtful design", "Quality materials", "Easy online shopping"],
+      processHeading: "Everything you need to choose with confidence.",
+      steps: [
+        { title: "Find your fit", description: "Explore product details, options, and sizing information." },
+        { title: "Choose your favorite", description: "Pick the style and details that work best for you." },
+        { title: "Make it yours", description: "Place your order through a simple, secure checkout." }
+      ],
+      cta: "Find your new everyday favorite."
+    }
+  },
+  {
+    id: "law-firm",
+    name: "Law Firm — Landing Page",
+    category: "LEGAL SERVICES",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Build trust with a clear overview of your legal practice, expertise, and client services.",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Law books and legal documents on a desk",
+    preview: {
+      theme: "law",
+      brand: "HARTWELL / LAW",
+      eyebrow: "THOUGHTFUL COUNSEL. CLEAR NEXT STEPS.",
+      headline: "When it matters, know where you stand.",
+      heroCta: "Explore our practice",
+      description: "Get clear guidance and responsive legal support from a team focused on understanding your needs.",
+      shortDescription: "Present your practice areas, legal team, and client intake process.",
+      imageAlt: "Law books and legal documents on a desk",
+      statement: "A clear understanding of your options is a powerful place to start.",
+      sectionTag: "LEGAL COUNSEL",
+      sectionLabel: "HOW WE CAN HELP",
+      sectionHeadline: "Experience grounded in your needs.",
+      sectionDescription: "Learn about our areas of practice and how we work to guide clients through important decisions.",
+      services: [
+        { title: "Business law", description: "Practical counsel for business formation, contracts, and day-to-day decisions." },
+        { title: "Estate planning", description: "Thoughtful planning to help you prepare for the future and protect what matters." },
+        { title: "Family law", description: "Clear, considerate guidance through personal legal matters and transitions." }
+      ],
+      trust: ["Clear communication", "Client-focused counsel", "Practical next steps"],
+      processHeading: "A considered approach at every stage.",
+      steps: [
+        { title: "Tell us what brings you here", description: "Share a brief overview so we can understand what kind of help you need." },
+        { title: "Discuss your options", description: "Connect with our team to learn about possible next steps for your situation." },
+        { title: "Move forward with clarity", description: "Get guidance on the process, timing, and information you'll need." }
+      ],
+      cta: "Let's talk about the right next step."
+    }
+  },
+  {
+    id: "roofing-home-services",
+    name: "Roofing & Home Services — Landing Page",
+    category: "ROOFING & HOME SERVICES",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Showcase your home improvement services and make it easy to request an estimate.",
+    image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Home service professional inspecting a residential roof",
+    preview: {
+      theme: "home-services",
+      brand: "TRUEFRAME / HOME",
+      eyebrow: "LOCAL SERVICE. QUALITY YOU CAN SEE.",
+      headline: "Take care of home, starting at the top.",
+      heroCta: "Explore our services",
+      description: "Get straightforward estimates and dependable home services from a team that takes pride in its work.",
+      shortDescription: "Promote roofing, repairs, and home services with a clear quote request path.",
+      imageAlt: "Home service professional inspecting a residential roof",
+      statement: "A well-cared-for home starts with a team you can count on.",
+      sectionTag: "ROOFING & HOME IMPROVEMENT",
+      sectionLabel: "HELP FOR YOUR HOME",
+      sectionHeadline: "Reliable work, from the first call to the final walkthrough.",
+      sectionDescription: "From roof repairs to exterior upgrades, find the right service and know what to expect.",
+      services: [
+        { title: "Roof repair", description: "Address leaks, storm damage, and wear with a careful inspection and repair plan." },
+        { title: "Roof replacement", description: "Explore durable roofing options and get guidance on your replacement project." },
+        { title: "Exterior improvements", description: "Improve and protect your home with siding, gutters, and other exterior services." }
+      ],
+      trust: ["Clear estimates", "Quality-focused work", "Local service team"],
+      processHeading: "Know what to expect from start to finish.",
+      steps: [
+        { title: "Tell us about your project", description: "Share the service you need and a few details about your home." },
+        { title: "Schedule an estimate", description: "Choose a convenient time for a visit and project assessment." },
+        { title: "Review your options", description: "Get a clear scope of work and discuss the next steps with our team." }
+      ],
+      cta: "Let's take a closer look at your project."
+    }
+  },
+  {
+    id: "gym-fitness",
+    name: "Gym & Fitness — Landing Page",
+    category: "GYM & FITNESS",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Promote your gym, classes, and trainers with an inviting path to get started.",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Modern gym with fitness equipment",
+    preview: {
+      theme: "fitness",
+      brand: "GROUND / FITNESS",
+      eyebrow: "YOUR GOALS. YOUR PACE. YOUR COMMUNITY.",
+      headline: "Build strength for the life you want.",
+      heroCta: "Explore membership",
+      description: "Find expert coaching, welcoming classes, and the space to make fitness part of your routine.",
+      shortDescription: "Showcase gym facilities, group classes, and personal training options.",
+      imageAlt: "Modern gym with fitness equipment",
+      statement: "Progress isn't one-size-fits-all. Your fitness journey shouldn't be either.",
+      sectionTag: "A PLACE TO MOVE FORWARD",
+      sectionLabel: "FIND YOUR WAY TO MOVE",
+      sectionHeadline: "Training that fits your goals and your life.",
+      sectionDescription: "Explore flexible ways to train, build healthy habits, and find support at every level.",
+      services: [
+        { title: "Strength training", description: "Use well-equipped training areas to build strength at your own pace." },
+        { title: "Group classes", description: "Find motivation and community in classes for a range of fitness levels." },
+        { title: "Personal training", description: "Work one-on-one with a trainer on a plan tailored to your goals." }
+      ],
+      trust: ["All fitness levels welcome", "Experienced trainers", "Flexible training options"],
+      processHeading: "A welcoming first step, whatever your goal.",
+      steps: [
+        { title: "Explore the gym", description: "See the spaces, equipment, and training options available." },
+        { title: "Find your fit", description: "Choose a membership, class, or training plan that works for you." },
+        { title: "Get moving", description: "Meet the team and start building a routine at your own pace." }
+      ],
+      cta: "Ready to find your place to move?"
     }
   }
 ];
