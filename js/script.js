@@ -384,16 +384,16 @@ const landingPages = [
 ];
 
 const promptPackInfo = [
-  ["100-ai-business-prompts", "100 AI Prompts for Business Growth", 100, "Business & Growth", "Practical prompts for automation, customer service, operations, and strategy."],
-  ["100-email-marketing-prompts", "100 AI Prompts for Email Marketing", 100, "Email Marketing", "Grow your list, build customer relationships, recover carts, and plan launches."],
-  ["100-facebook-ads-prompts", "100 AI Prompts for High-Converting Facebook Ads", 100, "Digital Advertising", "Create clearer ads for entrepreneurs, online stores, and affiliates."],
-  ["100-instagram-prompts", "100 AI Prompts for Instagram Content", 100, "Social Media", "Create Reels, carousels, captions, and content calendars."],
-  ["100-market-research-prompts", "100 AI Prompts for Market Research", 100, "Market Research", "Explore competitors, customer personas, idea validation, and pricing."],
-  ["100-shopify-prompts", "100 AI Prompts for Shopify Store Growth", 100, "E-commerce", "Improve product pages, organic discovery, upsells, and store growth."],
+  ["100-ai-business-prompts", "100 AI Prompts for Business Growth", 100, "Business & Growth", "Practical prompts for automation, customer service, operations, and strategy.", "$9.99", "https://estefanio8.gumroad.com/l/frjyfy"],
+  ["100-email-marketing-prompts", "100 AI Prompts for Email Marketing", 100, "Email Marketing", "Grow your list, build customer relationships, recover carts, and plan launches.", "$9.99", "https://estefanio8.gumroad.com/l/fluhvk"],
+  ["100-facebook-ads-prompts", "100 AI Prompts for High-Converting Facebook Ads", 100, "Digital Advertising", "Create clearer ads for entrepreneurs, online stores, and affiliates.", "$9.99", "https://estefanio8.gumroad.com/l/xfecut"],
+  ["100-instagram-prompts", "100 AI Prompts for Instagram Content", 100, "Social Media", "Create Reels, carousels, captions, and content calendars.", "$9.99", "https://estefanio8.gumroad.com/l/anzleo"],
+  ["100-market-research-prompts", "100 AI Prompts for Market Research", 100, "Market Research", "Explore competitors, customer personas, idea validation, and pricing.", "$9.99", "https://estefanio8.gumroad.com/l/gbycc"],
+  ["100-shopify-prompts", "100 AI Prompts for Shopify Store Growth", 100, "E-commerce", "Improve product pages, organic discovery, upsells, and store growth.", "$9.99", "https://estefanio8.gumroad.com/l/aeahod"],
   ["200-ai-prompts-for-resumes-and-job-interviews", "200 AI Prompts for Resumes and Job Interviews", 200, "Career", "Build stronger resumes, tailor applications, and prepare for interviews with confidence."],
   ["200-copywriting-prompts", "200 AI Prompts for Persuasive Copywriting", 200, "Copywriting", "Write more persuasive marketing messages, compelling stories, and sales copy."],
   ["200-digital-marketing-prompts", "200 AI Prompts for Digital Marketing", 200, "Digital Marketing", "Plan, create, evaluate, and improve your digital marketing."],
-  ["200-prompts-for-high-conversing-landing-pages", "200 AI Prompts for High-Converting Landing Pages", 200, "Landing Pages", "Create strategic pages that turn attention into action."],
+  ["200-prompts-for-high-conversing-landing-pages", "200 AI Prompts for High-Converting Landing Pages", 200, "Landing Pages", "Create strategic pages that turn attention into action.", "$9.99", "https://estefanio8.gumroad.com/l/lhgcwt"],
   ["200-web-development-prompts", "200 AI Prompts for Web Development", 200, "Web Development", "Build accessible, responsive web experiences that are easy to maintain."],
   ["250-ai-prompts-for-email-marketing", "250 AI Prompts for Email Marketing", 250, "Email Marketing", "Write welcome emails, promotions, cart recovery messages, and nurture sequences."],
   ["250-ai-prompts-for-real-estate-agents", "250 AI Prompts for Real Estate Agents", 250, "Real Estate", "Create real estate marketing, client follow-ups, and everyday content."],
@@ -406,14 +406,14 @@ const promptPackInfo = [
   ["500-social-media-growth-prompts", "500 AI Prompts for Social Media Growth", 500, "Social Media", "Practical content ideas for small businesses, freelancers, and creators."]
 ];
 
-const promptPacks = promptPackInfo.map(([id, name, count, promptCategory, shortDescription]) => ({
+const promptPacks = promptPackInfo.map(([id, name, count, promptCategory, shortDescription, price = null, checkoutUrl = ""]) => ({
   id,
   name,
   count,
   category: promptCategory.toLocaleUpperCase("en-US"),
   promptCategory,
-  price: null,
-  checkoutUrl: "",
+  price,
+  checkoutUrl,
   shortDescription,
   description: shortDescription,
   image: `assets/prompt-covers/${id}.webp`,
