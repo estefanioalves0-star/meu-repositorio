@@ -8,8 +8,10 @@ O catálogo e as prévias estão em `js/script.js`. Quando os preços e links Gu
 
 As miniaturas dos prompt packs, em `assets/prompt-covers/`, foram geradas a partir da primeira página de cada PDF. Os PDFs completos não são incluídos no site público nem no repositório, para que o material pago só seja entregue pelo checkout.
 
-## Prévia das landing pages
+## Demos das landing pages
 
-Abra `landing-preview.html?id=arcform`, `landing-preview.html?id=elevate` ou `landing-preview.html?id=atelier` para ver os três modelos interativos. O botão de personalização abre o WhatsApp com o link do modelo selecionado.
+Abra `landing-preview.html?id=ai-startup`, `landing-preview.html?id=saas`, `landing-preview.html?id=marketing-agency`, `landing-preview.html?id=real-estate` ou `landing-preview.html?id=dental-clinic` para ver as cinco demos completas. O botão de personalização abre o WhatsApp com o link da demo selecionada.
+
+Os botões “Comprar” ficam desativados até serem definidos os respetivos links de checkout.
 
 O projeto não requer compilação. Na Netlify, use a raiz do repositório (`.`) como diretório de publicação.

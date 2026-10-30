@@ -2,72 +2,193 @@ const WHATSAPP_NUMBER = "244962054093";
 
 const landingPages = [
   {
-    id: "arcform",
-    name: "Arcform — Studio de design",
-    category: "DESIGN & CRIATIVIDADE",
+    id: "ai-startup",
+    name: "AI Startup — Landing Page",
+    category: "INTELIGÊNCIA ARTIFICIAL",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Uma presença digital elegante para estúdios, consultores e marcas criativas.",
-    description: "Apresente seu trabalho com uma experiência editorial, sofisticada e fácil de explorar. Ideal para marcas criativas que querem uma presença digital à altura das suas ideias.",
-    longDescription: "Apresente seus produtos e serviços em uma página única, com hierarquia visual clara, conteúdo estratégico e uma jornada intuitiva do primeiro contato à ação. A estrutura Arcform foi pensada para estúdios, profissionais criativos e consultores que querem comunicar valor com personalidade.",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85",
-    imageAlt: "Interior contemporâneo com materiais naturais e design sofisticado",
-    rating: "★★★★★",
+    shortDescription: "Apresente uma ferramenta de inteligência artificial com uma demo clara e focada na conversão.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Visual abstrato de tecnologia e inteligência artificial",
     preview: {
-      theme: "arcform",
-      brand: "arcform",
-      eyebrow: "ESTÚDIO CRIATIVO INDEPENDENTE",
-      headline: "Design com intenção. Marcas com presença.",
-      description: "Criamos identidades e experiências digitais para ideias que merecem ser vistas de um novo ângulo.",
-      imageAlt: "Interior contemporâneo com materiais naturais",
-      services: ["Identidade de marca", "Direção de arte", "Experiências digitais"],
-      statement: "Boas marcas não precisam falar mais alto. Precisam dizer algo que importa."
+      theme: "ai",
+      brand: "nova.ai",
+      eyebrow: "A SUA NOVA PARCEIRA DE INTELIGÊNCIA ARTIFICIAL",
+      headline: "As suas melhores ideias. Prontas em minutos.",
+      heroCta: "Descubra o nova.ai",
+      description: "Crie, escreva e organize o seu trabalho com uma assistente de IA que entende aquilo de que precisa.",
+      shortDescription: "Crie conteúdo, automatize tarefas e trabalhe com uma assistente de IA.",
+      imageAlt: "Interface de inteligência artificial num computador portátil",
+      statement: "Menos tarefas repetitivas. Mais tempo para fazer o trabalho que importa.",
+      sectionTag: "PRODUTIVIDADE COM IA",
+      sectionLabel: "UMA FORMA MAIS INTELIGENTE DE TRABALHAR",
+      sectionHeadline: "Da primeira ideia ao trabalho concluído.",
+      sectionDescription: "Uma plataforma de IA simples de usar, com ferramentas práticas para ajudar a sua equipa a avançar com confiança.",
+      services: [
+        { title: "Assistente de IA", description: "Obtenha respostas úteis com contexto para as tarefas do seu dia a dia." },
+        { title: "Criação de conteúdo", description: "Transforme um briefing em textos, ideias e campanhas em poucos passos." },
+        { title: "Fluxos automatizados", description: "Passe menos tempo em tarefas repetitivas e mais tempo a fazer crescer o negócio." }
+      ],
+      trust: ["Para equipas de marketing", "Para quem cria todos os dias", "Para negócios em crescimento"],
+      processHeading: "Da ideia ao resultado, passo a passo.",
+      steps: [
+        { title: "Escolha o seu objetivo", description: "Comece pela tarefa ou desafio que quer resolver." },
+        { title: "Dê contexto à assistente", description: "Partilhe as informações necessárias para orientar a resposta." },
+        { title: "Revise e personalize", description: "Ajuste o resultado ao seu conhecimento e à sua marca." }
+      ],
+      cta: "Experimente uma forma mais simples de trabalhar."
     }
   },
   {
-    id: "elevate",
-    name: "Elevate — Consultoria premium",
-    category: "CONSULTORIA & SERVIÇOS",
+    id: "saas",
+    name: "SaaS — Landing Page",
+    category: "SOFTWARE & PRODUTIVIDADE",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Uma página objetiva para transformar expertise em novas conversas.",
-    description: "Uma experiência profissional para apresentar seus serviços, construir confiança e convidar clientes ideais para dar o próximo passo.",
-    longDescription: "A Elevate organiza a sua oferta em uma narrativa clara: para quem você trabalha, como gera valor e qual é o próximo passo. Uma estrutura flexível para consultorias, especialistas e negócios de serviços.",
-    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=85",
-    imageAlt: "Escritório moderno com espaço de trabalho iluminado",
-    rating: "★★★★★",
+    shortDescription: "Mostre como o seu software organiza projetos, equipas e tarefas num só lugar.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Painel de software com gráficos e informação organizada",
     preview: {
-      theme: "elevate",
-      brand: "ELEVATE",
-      eyebrow: "CONSULTORIA ESTRATÉGICA",
-      headline: "Clareza para decidir. Estratégia para avançar.",
-      description: "Ajudamos negócios ambiciosos a transformar desafios complexos em crescimento sustentável.",
-      imageAlt: "Escritório moderno com espaço de trabalho iluminado",
-      services: ["Estratégia de crescimento", "Transformação digital", "Aconselhamento executivo"],
-      statement: "O próximo nível do seu negócio começa com uma decisão mais bem informada."
+      theme: "saas",
+      brand: "flowdesk",
+      eyebrow: "O ESPAÇO DE TRABALHO DA SUA EQUIPA",
+      headline: "Projetos em movimento. Toda a equipa alinhada.",
+      heroCta: "Explore a plataforma",
+      description: "Planeie projetos, acompanhe tarefas e mantenha cada pessoa a par — sem perder tempo a saltar entre ferramentas.",
+      shortDescription: "Organize projetos, tarefas e equipas com um software intuitivo.",
+      imageAlt: "Painel de software com gráficos e informação organizada",
+      statement: "O trabalho corre melhor quando toda a gente sabe o que fazer a seguir.",
+      sectionTag: "SOFTWARE DE GESTÃO DE PROJETOS",
+      sectionLabel: "TUDO O QUE A SUA EQUIPA PRECISA",
+      sectionHeadline: "Um fluxo de trabalho que faz sentido.",
+      sectionDescription: "Do primeiro plano à tarefa concluída, acompanhe o progresso sem perder o foco.",
+      services: [
+        { title: "Planeie com clareza", description: "Organize projetos, prazos e prioridades num painel fácil de consultar." },
+        { title: "Acompanhe o progresso", description: "Veja o estado de cada tarefa sem interromper o ritmo da equipa." },
+        { title: "Trabalhe em conjunto", description: "Partilhe atualizações e mantenha conversas junto do trabalho." }
+      ],
+      trust: ["Projetos num só lugar", "Prioridades sempre visíveis", "Feito para equipas modernas"],
+      processHeading: "Um fluxo de trabalho que acompanha a sua equipa.",
+      steps: [
+        { title: "Crie o projeto", description: "Defina o objetivo, os responsáveis e os próximos passos." },
+        { title: "Organize as tarefas", description: "Distribua o trabalho e mantenha as prioridades visíveis." },
+        { title: "Acompanhe cada etapa", description: "Consulte o progresso e atualize o plano quando necessário." }
+      ],
+      cta: "Organize o próximo projeto num só lugar."
     }
   },
   {
-    id: "atelier",
-    name: "Atelier — Produto & lifestyle",
-    category: "E-COMMERCE & LIFESTYLE",
+    id: "marketing-agency",
+    name: "Marketing Agency — Landing Page",
+    category: "MARKETING & PUBLICIDADE",
     price: null,
     checkoutUrl: "",
-    shortDescription: "Uma vitrine de marca pensada para destacar produtos e histórias.",
-    description: "Design editorial e uma apresentação cuidadosa para marcas de produto que valorizam cada detalhe da experiência.",
-    longDescription: "Crie uma primeira impressão marcante com espaços generosos para imagens, narrativa de marca e apresentação de produto. Atelier combina flexibilidade com uma linguagem visual acolhedora e premium.",
-    image: "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1100&q=85",
-    imageAlt: "Ambiente de lifestyle com mobiliário de design e luz natural",
-    rating: "★★★★★",
+    shortDescription: "Apresente os seus serviços de anúncios, SEO e redes sociais com uma proposta orientada a resultados.",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Equipa de marketing a planear uma campanha numa reunião",
     preview: {
-      theme: "atelier",
-      brand: "ATELIER / OBJECTS",
-      eyebrow: "OBJETOS FEITOS PARA FICAR",
-      headline: "Peças singulares. Feitas para a vida real.",
-      description: "Descubra uma coleção de objetos cuidadosos, materiais honestos e formas que tornam o dia a dia especial.",
-      imageAlt: "Ambiente acolhedor com mobiliário de design e luz natural",
-      services: ["Materiais conscientes", "Produção em pequenas séries", "Envio cuidadoso"],
-      statement: "Acreditamos que os objetos que escolhemos mudam a forma como vivemos os nossos espaços."
+      theme: "agency",
+      brand: "PULSE / GROWTH",
+      eyebrow: "MARKETING COM ESTRATÉGIA E CRIATIVIDADE",
+      headline: "Mais do que alcance. Crescimento que se mede.",
+      heroCta: "Veja como podemos ajudar",
+      description: "Ajudamos marcas ambiciosas a encontrar o seu público e a transformar atenção em clientes.",
+      shortDescription: "Anúncios, SEO e redes sociais para atrair clientes e crescer.",
+      imageAlt: "Equipa de marketing a planear uma campanha numa reunião",
+      statement: "Boas campanhas começam com uma compreensão clara do negócio.",
+      sectionTag: "SERVIÇOS DE MARKETING DIGITAL",
+      sectionLabel: "SERVIÇOS PARA CADA FASE",
+      sectionHeadline: "Estratégia que liga a marca às pessoas certas.",
+      sectionDescription: "Um plano integrado para atrair atenção qualificada, construir confiança e apoiar o crescimento.",
+      services: [
+        { title: "Anúncios pagos", description: "Campanhas de Meta e Google alinhadas com os seus objetivos de negócio." },
+        { title: "SEO e conteúdo", description: "Ajude os seus clientes a encontrar a marca quando procuram uma solução." },
+        { title: "Redes sociais", description: "Uma presença consistente que transforma seguidores em comunidade." }
+      ],
+      trust: ["Facebook & Instagram Ads", "SEO & conteúdo", "Estratégia para redes sociais"],
+      processHeading: "Estratégia, execução e acompanhamento.",
+      steps: [
+        { title: "Conhecemos o negócio", description: "Percebemos a sua oferta, os seus objetivos e o público que quer alcançar." },
+        { title: "Definimos a estratégia", description: "Escolhemos os canais e a mensagem mais adequados ao projeto." },
+        { title: "Lançamos e acompanhamos", description: "Executamos as campanhas e analisamos o que pode ser melhorado." }
+      ],
+      cta: "Vamos falar sobre o crescimento da sua marca."
+    }
+  },
+  {
+    id: "real-estate",
+    name: "Real Estate — Landing Page",
+    category: "IMOBILIÁRIO",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Destaque imóveis, agende visitas e ajude clientes a encontrar o próximo lar.",
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Moradia contemporânea com jardim e piscina",
+    preview: {
+      theme: "real-estate",
+      brand: "HORIZON / IMÓVEIS",
+      eyebrow: "IMÓVEIS SELECIONADOS COM CRITÉRIO",
+      headline: "O lugar certo muda a forma de viver.",
+      heroCta: "Descubra os imóveis",
+      description: "Encontre casas e apartamentos escolhidos com atenção ao espaço, à localização e ao que realmente importa.",
+      shortDescription: "Apresente imóveis e facilite pedidos de visita com uma página elegante.",
+      imageAlt: "Moradia contemporânea com jardim e piscina",
+      statement: "Encontrar uma casa não é só escolher um endereço. É imaginar o que pode acontecer ali.",
+      sectionTag: "COMPRAR OU ARRENDAR",
+      sectionLabel: "UMA SELEÇÃO PARA DESCOBRIR",
+      sectionHeadline: "Espaços com potencial para se tornarem seus.",
+      sectionDescription: "Acompanhamento próximo, informação clara e imóveis selecionados para facilitar a sua procura.",
+      services: [
+        { title: "Casas com carácter", description: "Descubra moradias com espaço, luz natural e detalhes bem pensados." },
+        { title: "Apartamentos bem localizados", description: "Explore opções próximas de serviços, transportes e do seu dia a dia." },
+        { title: "Visitas acompanhadas", description: "Marque uma visita e conheça cada espaço ao seu próprio ritmo." }
+      ],
+      trust: ["Compra e arrendamento", "Aconselhamento próximo", "Visitas com acompanhamento"],
+      processHeading: "Uma procura acompanhada do início à visita.",
+      steps: [
+        { title: "Partilhe o que procura", description: "Indique a localização, o tipo de imóvel e os detalhes importantes." },
+        { title: "Explore as opções", description: "Veja imóveis selecionados de acordo com aquilo que procura." },
+        { title: "Marque uma visita", description: "Conheça o espaço e esclareça as suas dúvidas com acompanhamento." }
+      ],
+      cta: "Conte-nos o que procura. Ajudamos a encontrar."
+    }
+  },
+  {
+    id: "dental-clinic",
+    name: "Dental Clinic — Landing Page",
+    category: "SAÚDE & MEDICINA DENTÁRIA",
+    price: null,
+    checkoutUrl: "",
+    shortDescription: "Apresente tratamentos e a equipa da clínica com clareza e convide novos pacientes a marcar.",
+    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=85",
+    imageAlt: "Consultório dentário moderno, luminoso e preparado para receber pacientes",
+    preview: {
+      theme: "dental",
+      brand: "SORRISO / CLÍNICA",
+      eyebrow: "MEDICINA DENTÁRIA COM CUIDADO E PROXIMIDADE",
+      headline: "Cuidar do seu sorriso pode ser simples.",
+      heroCta: "Conheça os tratamentos",
+      description: "Uma equipa atenciosa, explicações claras e cuidados personalizados em cada visita.",
+      shortDescription: "Mostre tratamentos, equipa e marcações numa página acolhedora.",
+      imageAlt: "Consultório dentário moderno e luminoso",
+      statement: "Cada sorriso é único. O cuidado também deve ser.",
+      sectionTag: "CUIDADOS DE SAÚDE ORAL",
+      sectionLabel: "CUIDADOS PARA CADA SORRISO",
+      sectionHeadline: "Atenção, experiência e conforto.",
+      sectionDescription: "Conheça os cuidados da clínica e escolha um primeiro passo com acompanhamento da nossa equipa.",
+      services: [
+        { title: "Consulta de avaliação", description: "Uma conversa cuidadosa para conhecer as suas necessidades e explicar as opções." },
+        { title: "Higiene oral", description: "Cuidados preventivos e orientação para manter a saúde oral no dia a dia." },
+        { title: "Estética dentária", description: "Conheça as opções disponíveis com informação clara e acompanhamento profissional." }
+      ],
+      trust: ["Prevenção & higiene oral", "Tratamentos personalizados", "Marcação simples"],
+      processHeading: "Cuidados explicados com atenção em cada etapa.",
+      steps: [
+        { title: "Escolha o cuidado", description: "Consulte as áreas clínicas e indique o motivo da sua visita." },
+        { title: "Marque uma avaliação", description: "Agende um horário para conversar com a equipa da clínica." },
+        { title: "Conheça as opções", description: "Receba informação clara sobre os cuidados adequados a si." }
+      ],
+      cta: "A nossa equipa está pronta para o receber."
     }
   }
 ];
@@ -124,10 +245,10 @@ function productCard(product, type) {
   const count = isPrompt ? `<span class="prompt-count">${product.count}<small> PROMPTS</small></span>` : "";
   const ratingOrCount = isPrompt
     ? `<span class="product-rating-label">${product.count} prompts</span>`
-    : `<span class="stars" aria-label="Avaliação visual: 5 de 5 estrelas">${product.rating}</span>`;
+    : `<span class="product-rating-label">DEMO COMPLETA</span>`;
   const actions = isPrompt
     ? `<a href="${href}">Ver detalhes <span aria-hidden="true">↗</span></a>`
-    : `<a href="${href}">Detalhes</a><a href="${previewHref}">Visualizar <span aria-hidden="true">↗</span></a>`;
+    : `<a href="${previewHref}">Ver demo <span aria-hidden="true">↗</span></a><a href="${productWhatsAppHref(product)}" target="_blank" rel="noopener noreferrer">Personalizar <span aria-hidden="true">↗</span></a>`;
 
   return `<article class="product-card${isPrompt ? " prompt-card" : ""}">
     <a class="product-art" href="${isPrompt ? href : previewHref}" aria-label="${isPrompt ? `Ver detalhes de ${product.name}` : `Visualizar ${product.name}`}">
@@ -137,7 +258,7 @@ function productCard(product, type) {
     <div class="product-card-body">
       <div class="product-card-top"><h3>${product.name}</h3></div>
       <p>${product.shortDescription}</p>
-      <div class="product-card-price">${priceLabel(product)}</div>
+      ${isPrompt ? `<div class="product-card-price">${priceLabel(product)}</div>` : ""}
       <div class="product-card-footer">${ratingOrCount}<div class="product-card-actions">${actions}</div></div>
     </div>
   </article>`;
@@ -160,7 +281,7 @@ function renderCatalog(query = "") {
     const empty = document.querySelector(`[data-empty="${type}"]`);
     if (count) {
       const noun = type === "landing"
-        ? (filtered.length === 1 ? "experiência" : "experiências")
+        ? (filtered.length === 1 ? "demo" : "demos")
         : (filtered.length === 1 ? "prompt pack" : "prompt packs");
       count.textContent = `${filtered.length.toString().padStart(2, "0")} ${noun}`;
     }
@@ -176,8 +297,16 @@ function getProductFromUrl(products) {
 }
 
 function setText(selector, value) {
+  if (value === undefined || value === null) return;
   document.querySelectorAll(selector).forEach((element) => {
     element.textContent = value;
+  });
+}
+
+function setProductPrice(product) {
+  document.querySelectorAll("[data-product-price]").forEach((element) => {
+    element.textContent = product.price || "";
+    element.hidden = !product.price;
   });
 }
 
@@ -216,7 +345,7 @@ function setBuyLinks(product) {
     link.setAttribute("aria-disabled", "true");
     link.setAttribute("tabindex", "-1");
     link.classList.add("is-unavailable");
-    link.textContent = "Checkout em breve";
+    link.textContent = "Comprar";
   });
 }
 
@@ -229,8 +358,13 @@ function productPreviewUrl(product) {
   return new URL(`landing-preview.html?id=${encodeURIComponent(product.id)}`, window.location.href).href;
 }
 
+function productWhatsAppHref(product) {
+  const message = `Olá! Gostaria de pedir a personalização da landing page "${product.name}". Link da demo: ${productPreviewUrl(product)}`;
+  return whatsappHref(message);
+}
+
 function setProductWhatsappLinks(product, previewUrl) {
-  const message = `Olá! Gostaria de pedir a personalização da landing page "${product.name}". Link da página: ${previewUrl}`;
+  const message = `Olá! Gostaria de pedir a personalização da landing page "${product.name}". Link da demo: ${previewUrl}`;
   document.querySelectorAll("[data-product-whatsapp]").forEach((link) => {
     link.href = whatsappHref(message);
     link.target = "_blank";
@@ -252,9 +386,9 @@ function initLandingDetail() {
   const product = getProductFromUrl(landingPages);
   setText("[data-product-name]", product.name);
   setText("[data-product-category]", product.category);
-  setText("[data-product-price]", priceLabel(product));
-  setText("[data-product-description]", product.description);
-  setText("[data-long-description]", product.longDescription);
+  setProductPrice(product);
+  setText("[data-product-description]", product.preview.description);
+  setText("[data-long-description]", product.preview.sectionDescription);
   setText("[data-product-index]", `${String(landingPages.indexOf(product) + 1).padStart(2, "0")} / ${String(landingPages.length).padStart(2, "0")}`);
   setImage("[data-cover-image]", product.image, product.imageAlt);
   setImage("[data-showcase-one]", product.image, `Detalhe da experiência visual ${product.name}`);
@@ -276,18 +410,25 @@ function initLandingPreview() {
   const services = preview.services.map((service, index) => `
     <article class="live-service">
       <span>0${index + 1}</span>
-      <h3>${escapeHtml(service)}</h3>
-      <p>Uma abordagem cuidadosa, pensada para dar forma ao próximo passo da sua marca.</p>
+      <h3>${escapeHtml(service.title)}</h3>
+      <p>${escapeHtml(service.description)}</p>
     </article>`).join("");
+  const steps = preview.steps.map((step, index) => `
+    <article class="live-step">
+      <span>0${index + 1}</span>
+      <h3>${escapeHtml(step.title)}</h3>
+      <p>${escapeHtml(step.description)}</p>
+    </article>`).join("");
+  const trust = preview.trust.map((item) => `<span>${escapeHtml(item)}</span>`).join("");
 
   root.innerHTML = `
     <div class="live-site live-theme-${preview.theme}">
       <header class="live-nav">
         <a class="live-brand" href="#top">${escapeHtml(preview.brand)}</a>
         <nav aria-label="Navegação da prévia">
-          <a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#contacto">Contacto</a>
+          <a href="#sobre">Sobre</a><a href="#servicos">Soluções</a><a href="#contacto">Contacto</a>
         </nav>
-        <a class="live-nav-cta" href="#contacto">Vamos conversar <span aria-hidden="true">↗</span></a>
+        <a class="live-nav-cta" href="#contacto">Fale connosco <span aria-hidden="true">↗</span></a>
       </header>
       <main>
         <section class="live-hero" id="top">
@@ -296,11 +437,10 @@ function initLandingPreview() {
             <h1>${escapeHtml(preview.headline)}</h1>
             <p>${escapeHtml(preview.description)}</p>
             <div class="live-hero-actions">
-              <a class="live-cta" href="#servicos">Conheça a nossa abordagem <span aria-hidden="true">↗</span></a>
-              <a class="live-cta live-cta-secondary" data-buy-link href="#">Comprar este modelo</a>
+              <a class="live-cta" href="#servicos">${escapeHtml(preview.heroCta)} <span aria-hidden="true">↗</span></a>
+              <a class="live-cta live-cta-secondary" data-buy-link href="#">Comprar</a>
             </div>
-            <span class="live-price" data-product-price>${escapeHtml(priceLabel(product))}</span>
-            <span class="live-note">Estratégia · Design · Experiência</span>
+            <span class="live-note">${escapeHtml(preview.sectionTag)}</span>
           </div>
           <div class="live-hero-image">
             <img src="${escapeHtml(product.image)}" alt="${escapeHtml(preview.imageAlt)}">
@@ -308,31 +448,41 @@ function initLandingPreview() {
           </div>
           <span class="live-hero-number" aria-hidden="true">01</span>
         </section>
+        <section class="live-trust" aria-label="Destaques">
+          ${trust}
+        </section>
         <section class="live-statement" id="sobre">
-          <span class="live-eyebrow">UMA IDEIA, COM DIREÇÃO</span>
+          <span class="live-eyebrow">${escapeHtml(preview.sectionTag)}</span>
           <p>${escapeHtml(preview.statement)}</p>
         </section>
         <section class="live-services" id="servicos">
           <div class="live-section-heading">
-            <div><span class="live-eyebrow">O QUE FAZEMOS</span><h2>Um bom começo<br>muda tudo.</h2></div>
-            <p>Uma estrutura de apresentação clara e flexível, pronta para receber a história e a oferta da sua marca.</p>
+            <div><span class="live-eyebrow">${escapeHtml(preview.sectionLabel)}</span><h2>${escapeHtml(preview.sectionHeadline)}</h2></div>
+            <p>${escapeHtml(preview.sectionDescription)}</p>
           </div>
           <div class="live-service-grid">${services}</div>
         </section>
+        <section class="live-process" id="processo">
+          <div class="live-section-heading">
+            <div><span class="live-eyebrow">COMO FUNCIONA</span><h2>${escapeHtml(preview.processHeading)}</h2></div>
+            <p>Uma sequência clara para conhecer a solução e perceber como a demo pode ser adaptada ao seu negócio.</p>
+          </div>
+          <div class="live-step-grid">${steps}</div>
+        </section>
         <section class="live-contact" id="contacto">
-          <div><span class="live-eyebrow">PRONTO PARA O PRÓXIMO PASSO?</span><h2>Vamos criar algo<br>com significado.</h2></div>
+          <div><span class="live-eyebrow">VAMOS CONVERSAR</span><h2>${escapeHtml(preview.cta)}</h2></div>
           <div class="live-contact-actions">
-            <p>Esta é uma prévia demonstrativa do modelo. Peça a personalização para adaptar conteúdo, imagens e identidade à sua marca.</p>
-            <span class="live-price" data-product-price>${escapeHtml(priceLabel(product))}</span>
-            <a class="live-cta" data-buy-link href="#">Comprar este modelo</a>
-            <a class="live-cta live-cta-secondary" data-product-whatsapp href="#">Pedir personalização pelo WhatsApp <span aria-hidden="true">↗</span></a>
+            <p>Este é um modelo demonstrativo. Peça a personalização para adaptar o conteúdo, as imagens e a identidade à sua marca.</p>
+            <div class="live-contact-actions-row">
+              <a class="live-cta" data-product-whatsapp href="#">Pedir personalização <span aria-hidden="true">↗</span></a>
+              <a class="live-cta live-cta-secondary" data-buy-link href="#">Comprar</a>
+            </div>
           </div>
         </section>
       </main>
-      <footer class="live-footer"><span>${escapeHtml(preview.brand)}</span><span>Prévia de modelo · Northstar Studio</span><a href="#top">Voltar ao topo ↑</a></footer>
+      <footer class="live-footer"><span>${escapeHtml(preview.brand)}</span><span>Modelo demonstrativo · Northstar Studio</span><a href="#top">Voltar ao topo ↑</a></footer>
     </div>`;
 
-  setText("[data-product-price]", priceLabel(product));
   setBuyLinks(product);
   setProductWhatsappLinks(product, productPreviewUrl(product));
   document.title = `Prévia: ${product.name} — Northstar Studio`;
